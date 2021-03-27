@@ -1,6 +1,9 @@
 # Workshop.
 
 ########################################################################################################
+# load packages 
+install.packages("R/SciDatAnalysis_0.1.0.tar.gz", repos = NULL, type="source")
+pacman::p_load(learnr, agricolae, tidyverse, car, MASS, SciDatAnalysis)
 # 1. Chi-Squared Test of Independence:
 
 ### Hair and Eye colour:

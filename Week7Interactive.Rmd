@@ -427,7 +427,7 @@ To demonstrate its use, let's look at the hair and eye colour data again.
 The hair and eye colour data is contained in the `SciDatAnalysis` library you (hopefully) successfully installed following the instructions at the beginning of these notes. Use this library in the usual way.
 
 ```{r setup, include = FALSE}
-# install.packages("R/SciDatAnalysis_0.1.0.tar.gz", repos = NULL, type="source")
+install.packages("R/SciDatAnalysis_0.1.0.tar.gz", repos = NULL, type="source")
 pacman::p_load(learnr, agricolae, tidyverse, car, MASS, SciDatAnalysis)
 # library(SciDatAnalysis)
 # library(tidyverse)
